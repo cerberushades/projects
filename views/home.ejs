@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Chuck Norris Search Engine</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Bungee&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Primeira section do site, que compreeende a imagem, o input e os botões. -->
+        <section id="principal">
+            <h1 id="titulo-principal">FACTS ABOUT CHUCK NORRIS</h1>
+            <img src="chuck-norris-thumb.jpg" id="chucknorris"> <br><br>
+            <input type="text" id="pesquisa"> <br><br>
+            <p id="erroAjax" class="invisivel" >Try Again!</p>
+            <button id="botao1">CHUCKNORRIS it!</button>
+            <button id="botao2">I'm lucky like CHUCK NORRIS!</button>
+        </section>
+        <!-- Segunda session do site, onde ficam os resultados da pesquisa. -->
+        <section id="campoResultado">
+            <div id="msgInicial" class="invisivel">        
+                <p>We've found <span id="quantaspiadas">0</span> facts!</p>
+                <p id="resultado"><em>Search Result</em></p>
+            </div>
+            <div id="campoPiadas"></div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>

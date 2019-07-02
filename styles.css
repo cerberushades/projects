@@ -1,0 +1,84 @@
+html, body {
+    font-family: 'Bungee', cursive;
+}
+#principal {
+    text-align: center;
+
+}
+#titulo-principal {
+    font-family: 'Bungee', cursive;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+#chucknorris {
+    display: inline-block;
+}
+
+input{
+    border: black 4px solid;
+    width: 250px;
+    height: 50px;
+    border-radius:  10px;
+    padding: 5px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#botao1{
+    background-color:1B6ACF;
+    color: whitesmoke;
+    cursor: pointer;
+    font-family: inherit;
+
+}
+
+
+#botao2{
+    background-color:FD0006;
+    color: yellow;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+#erroAjax {
+    color: red;
+}
+
+#campoResultado {
+    text-align: center;
+}
+
+.invisivel {
+    display: none;
+}
+
+.lucky {
+    font-size: 300px;
+}
+
+.blueBgd{
+    background-color:1B6ACF;
+    opacity: 0.8;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.redBgd{
+    background-color:FD0006;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 50px;
+    margin-top:  10px;
+}
+
+@media (max-width:640px) {
+    .redBgd, #titulo-principal {
+        font-size: inherit;
+    }
+}
